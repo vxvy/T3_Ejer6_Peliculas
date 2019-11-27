@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/txvFondoBajo"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/colorPrimaryDark"
+        android:paddingHorizontal="@dimen/celda_standart"
+        android:paddingVertical="@dimen/celda_standart"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txvFondoBajoUp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginHorizontal="@dimen/celda_standart"
+        android:layout_marginVertical="@dimen/celda_standart"
+        android:background="@color/colorPrimarySlightlyDark"
+        android:ellipsize="middle"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/txvFondoBajo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/txvFondoBajo"
+        app:layout_constraintTop_toTopOf="@+id/txvFondoBajo" />
+
+    <ImageView
+        android:id="@+id/imgvPoster"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/celda_dstandart"
+        android:layout_marginVertical="@dimen/celda_standart"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/ic_launcher" />
+
+    <TextView
+        android:id="@+id/txvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/celda_standart"
+        android:layout_marginTop="@dimen/celda_standart"
+        android:text="TextView"
+        android:textColor="@color/colorAccent"
+        android:textSize="@dimen/celda_title_size"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/imgvPoster"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txvDirector"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/celda_standart"
+        android:layout_marginVertical="@dimen/celda_standart"
+        android:text="TextView"
+        android:textColor="@color/colorAccent"
+        android:textSize="@dimen/celda_director_size"
+        app:layout_constraintStart_toEndOf="@+id/imgvPoster"
+        app:layout_constraintTop_toBottomOf="@+id/txvTitle" />
+
+    <ImageView
+        android:id="@+id/imgvPegi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/celda_standart"
+        android:layout_marginVertical="@dimen/celda_standart"
+        android:tint="@color/colorAccent"
+        app:layout_constraintStart_toEndOf="@+id/imgvPoster"
+        app:layout_constraintTop_toBottomOf="@+id/txvDirector"
+        app:srcCompat="@android:drawable/btn_dialog" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

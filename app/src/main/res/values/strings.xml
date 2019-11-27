@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">T3_Ejer6_Peliculas</string>
+    <string name="titulo">Título:</string>
+    <string name="director">Director:</string>
+    <string name="fechaestreno">F.Estreno</string>
+    <string name="duracion">Duración:</string>
+    <string name="sala">Sala:</string>
+    <string name="textopegi">Clasificación por edades:</string>
+    <string name="back">Back</string>
+    <string-array name="salasspinner">
+        <item>Gran Vía</item>
+        <item>Travesía</item>
+        <item>Plz. Elíptica</item>
+        <item>Norte</item>
+    </string-array>
+</resources>

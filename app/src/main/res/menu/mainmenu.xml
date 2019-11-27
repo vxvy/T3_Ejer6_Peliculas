@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/mnoptionListaCompleta"
+        android:enabled="true"
+        android:icon="@drawable/peliicon"
+        android:iconTint="@color/colorAccent"
+        android:title="Item"
+        android:visible="true"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/mnoptionListaFav"
+        android:enabled="true"
+        android:icon="@drawable/iconfav"
+        android:iconTint="@color/colorAccent"
+        android:title="Item"
+        android:visible="true"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/mnoptionAddPeli"
+        android:enabled="true"
+        android:icon="@drawable/iconadd"
+        android:iconTint="@color/colorAccent"
+        android:title="Item"
+        android:visible="true"
+        app:showAsAction="always" />
+</menu>

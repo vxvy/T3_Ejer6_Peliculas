@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="idActivityMain">1</integer>
+    <integer name="idActivityListaCompleta">2</integer>
+    <integer name="idActivityFavoritos">3</integer>
+    <integer name="idActivityNuevaPeli">4</integer>
+    <integer name="idActivitySinopsis">5</integer>
+</resources>

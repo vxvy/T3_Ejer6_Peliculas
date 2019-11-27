@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="celda_hstandart">6dp</dimen>
+    <dimen name="celda_standart">12dp</dimen>
+    <dimen name="celda_dstandart">36dp</dimen>
+    <dimen name="celda_com_data">12sp</dimen>
+    <dimen name="celda_com_title">18sp</dimen>
+    <dimen name="celda_title_size">24sp</dimen>
+    <dimen name="celda_title_size_plus">36sp</dimen>
+    <dimen name="celda_director_size">18sp</dimen>
+</resources>

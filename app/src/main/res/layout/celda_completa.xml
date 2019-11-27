@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintCompleta"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/txvFondo"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/colorPrimarySlightlyDark"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/txvFondoUp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="@dimen/celda_hstandart"
+        android:layout_marginTop="@dimen/celda_hstandart"
+        android:layout_marginEnd="@dimen/celda_hstandart"
+        android:layout_marginBottom="@dimen/celda_standart"
+        android:background="@color/colorAccentPale"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imgvComPortada"
+        app:layout_constraintTop_toBottomOf="@+id/txvComTitulo" />
+
+    <TextView
+        android:id="@+id/txvComTitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/celda_standart"
+        android:layout_marginTop="@dimen/celda_hstandart"
+        android:text="TextView"
+        android:textSize="@dimen/celda_com_title"
+        app:layout_constraintStart_toEndOf="@+id/imgvComPortada"
+        app:layout_constraintTop_toTopOf="@+id/imgvComPortada" />
+
+    <TextView
+        android:id="@+id/txvComDirectorEtiqueta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/celda_standart"
+        android:layout_marginTop="@dimen/celda_hstandart"
+        android:text="@string/director"
+        android:textSize="@dimen/celda_com_data"
+        app:layout_constraintStart_toEndOf="@+id/imgvComPortada"
+        app:layout_constraintTop_toBottomOf="@+id/txvComTitulo" />
+
+    <TextView
+        android:id="@+id/txvComFEstrenoEtiqueta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/celda_standart"
+        android:layout_marginTop="@dimen/celda_hstandart"
+        android:text="@string/fechaestreno"
+        android:textSize="@dimen/celda_com_data"
+        app:layout_constraintStart_toEndOf="@+id/imgvComPortada"
+        app:layout_constraintTop_toBottomOf="@+id/txvComDirectorEtiqueta" />
+
+    <TextView
+        android:id="@+id/txvComDuracionEtiqueta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/celda_standart"
+        android:layout_marginTop="@dimen/celda_hstandart"
+        android:text="@string/duracion"
+        android:textSize="@dimen/celda_com_data"
+        app:layout_constraintStart_toEndOf="@+id/imgvComPortada"
+        app:layout_constraintTop_toBottomOf="@+id/txvComFEstrenoEtiqueta" />
+
+    <TextView
+        android:id="@+id/txvComSalaEtiqueta4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/celda_standart"
+        android:layout_marginTop="@dimen/celda_hstandart"
+        android:text="@string/sala"
+        android:textSize="@dimen/celda_com_data"
+        app:layout_constraintStart_toEndOf="@+id/imgvComPortada"
+        app:layout_constraintTop_toBottomOf="@+id/txvComDuracionEtiqueta" />
+
+    <TextView
+        android:id="@+id/txvComDirector"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textSize="@dimen/celda_com_data"
+        app:layout_constraintBottom_toBottomOf="@+id/txvComDirectorEtiqueta"
+        app:layout_constraintStart_toStartOf="@+id/guideline"
+        app:layout_constraintTop_toTopOf="@+id/txvComDirectorEtiqueta"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/txvComSala"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textSize="@dimen/celda_com_data"
+        app:layout_constraintBottom_toBottomOf="@+id/txvComSalaEtiqueta4"
+        app:layout_constraintStart_toStartOf="@+id/guideline"
+        app:layout_constraintTop_toTopOf="@+id/txvComSalaEtiqueta4"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/txvComDuracion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textSize="@dimen/celda_com_data"
+        app:layout_constraintBottom_toBottomOf="@+id/txvComDuracionEtiqueta"
+        app:layout_constraintStart_toStartOf="@+id/guideline"
+        app:layout_constraintTop_toTopOf="@+id/txvComDuracionEtiqueta" />
+
+    <ImageView
+        android:id="@+id/imgvComPortada"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/celda_standart"
+        android:layout_marginTop="@dimen/celda_standart"
+        android:layout_marginBottom="@dimen/celda_standart"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/akira" />
+
+    <ImageView
+        android:id="@+id/imgvComFav"
+        android:layout_width="@android:dimen/notification_large_icon_height"
+        android:layout_height="@android:dimen/notification_large_icon_width"
+        android:layout_marginStart="@dimen/celda_standart"
+        android:layout_marginBottom="@dimen/celda_standart"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imgvComPortada"
+        app:srcCompat="@drawable/robot" />
+
+    <ImageView
+        android:id="@+id/imgvComPegi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/celda_standart"
+        android:layout_marginBottom="@dimen/celda_standart"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/pg" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="123dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintGuide_end="188dp" />
+
+    <TextView
+        android:id="@+id/txvComFEstreno"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textSize="@dimen/celda_com_data"
+        app:layout_constraintBottom_toBottomOf="@+id/txvComFEstrenoEtiqueta"
+        app:layout_constraintStart_toStartOf="@+id/guideline"
+        app:layout_constraintTop_toTopOf="@+id/txvComFEstrenoEtiqueta" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
