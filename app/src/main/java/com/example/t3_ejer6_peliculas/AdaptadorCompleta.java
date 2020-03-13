@@ -113,6 +113,4 @@ public class AdaptadorCompleta
         }
         return date.toString();
     }
-
-
 }

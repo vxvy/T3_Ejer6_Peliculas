@@ -50,7 +50,6 @@ public class MainActivity extends AppCompatActivity {
                 if(actBar.isShowing()){
                     actBar.hide();
                     fabHideToolbar.setImageDrawable(getResources().getDrawable(R.drawable.screen_normal, getBaseContext().getTheme()));
-
                 }
                 else{
                     actBar.show();
@@ -124,7 +123,7 @@ public class MainActivity extends AppCompatActivity {
             Pelicula placeholder = (Pelicula)(data.getSerializableExtra("pelicula"));
             this.peliculas.add(placeholder);
             this.adaptador.notifyDataSetChanged();
-    }
+        }
         if(requestCode == getResources().getInteger(R.integer.idActivityFavoritos)
                 && resultCode == RESULT_OK){
             this.peliculas = (ArrayList<Pelicula>)(data.getSerializableExtra("pelisFav"));
