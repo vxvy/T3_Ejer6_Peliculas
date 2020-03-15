@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/T3_Ejer6_Peliculas.iml" filepath="$PROJECT_DIR$/T3_Ejer6_Peliculas.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/T3_Ejer6_Peliculas.iml" filepath="$PROJECT_DIR$/T3_Ejer6_Peliculas.iml" group="T3_Ejer6_Peliculas" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="T3_Ejer6_Peliculas/app" />
     </modules>
   </component>
 </project>
